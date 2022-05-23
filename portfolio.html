@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+        <title>Portfolio</title>
+
+        <!-- icon -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Heebo|Noto+Sans+KR" rel="stylesheet">
+
+        <!-- user style -->
+        <link rel="stylesheet" href="portfolio.css">
+
+    </head>
+    <body>
+
+        <header class="header-area navbar-fade" id="header">
+            <nav class="navbar">
+                <a class="navbar-brand" id="navbarBrand">Portfolio</a>
+                <a class="navbar-toggler" id="toggleBtn"><i class="fas fa-bars"></i></a>
+                <div class="navbar-menu" id="menu">
+                    <div class="nav-item"><a class="nav-link" id="navbarAbout">about</a></div>
+                    <div class="nav-item"><a class="nav-link" id="navbarService">impormation</a></div>
+                    <div class="nav-item"><a class="nav-link" id="navbarPortfolio">portfolio</a></div>
+                    <div class="nav-item"><a class="nav-link" id="navbarReview">university</a></div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="section-container">
+            <div class="welcome-area">
+                <div class="container">
+                    <div class="image-slide fade">
+                        <img src="image/d.jpg">
+                    </div>
+                    <div class="image-slide fade">
+                        <img src="image/c.jpg">
+                    </div>
+                    <div class="image-slide fade">
+                        <img src="image/ky.jpg">
+                    </div>
+                    <div class="image-slide fade">
+                        <img src="image/v.jpg">
+                    </div>
+
+                    <a class="image-prev" id="imagePrev">&#10094;</a>
+				    <a class="image-next" id="imageNext">&#10095;</a>
+
+                    <div class="dots">
+                        <span class="dot" id="firstDot"></span>
+                        <span class="dot" id="secondDot"></span>
+                        <span class="dot" id="thirdDot"></span>
+                        <span class="dot" id="forthDot"></span>
+                    </div>
+                </div>
+            </div>
+            <section class="about-area" id="about">
+                <div class="title">
+                    ABOUT
+                </div>
+                <div class="picture">
+                    <img src="image/my.jpg">
+                    <div class="name">이승현</div>
+                    <div class="description">예비 개발자</div>
+                </div>
+                <div class="text">
+                    <div class="intro">
+                        안녕하세요. 경운대학교 항공소프트웨어학과 4학년 이승현입니다.
+                        나이는 27살이고, 개발자가 꿈입니다.
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="info">
+                                <i class="far fa-calendar-alt"></i> 1996.12.12
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info">
+                                <i class="fa fa-phone"></i> +82 10-4539-6966
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info">
+                                <i class="fa fa-envelope"></i> ljh5968@naver.com
+                            </div>
+                        </li>
+                        <li>
+                            <div class="info">
+                                <i class="fa fa-home"></i> 대구광역시 북구 팔거천동로 24길 40
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="sns">
+                        <a style="text-decoration:none;" href="https://www.facebook.com/profile.php?id=100006457017122" target="blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a style="text-decoration:none;" href="https://github.com/win-hyun" target="blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a style="text-decoration:none;" href="https://www.instagram.com/e_shynni/" target="blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services-area" id="service">
+                <div class="title">
+                    IMPORMATION
+                </div>
+                <div class="container">
+    
+                    <div class="item">
+                        <div class="service">GRADUATION</div>
+                        <div class="content">-2018~20 육군부사관 근무<br>-2015~22 경운대학교(항공소프트웨어 전공)</div>
+                    </div>
+    
+                    <div class="item">
+                        <div class="service">EDUCATION</div>
+                        <div class="content">-2021.08~09 (주)위즈앤테크 현장실습<br>-2022.01~02(주)케이엔엘정보시스템 현장실습<br>-2022.03~04 대구AI hub AI+WEB3기 교육과정 수료</div>
+                    </div>
+    
+                    <div class="item">
+                        <div class="service">SKILLS</div>
+                        <div class="icon"><span><i class="fab fa-java"></i></span></div>
+                        <div class="icon"><span><i class="fab fa-js-square"></i></span></div>
+                        <div class="icon"><span><i class="fab fa-html5"></i></span></div>
+                        <div class="icon"><span><i class="fab fa-css3"></i></span></div>
+                        
+                        <div class="content">JAVA를 다룰 수 있으며 웹 표준에 맞게 문서의 마크업이 가능합니다. </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+            <section class="portfolio-area" id="portfolio">
+                <div class="title">
+                    PORTFOLIO
+                </div>
+                <div class="filter">
+                    <ul class="list">
+                        <li class="listItem active" id="all">
+                            all
+                        </li>
+                        <li class="listItem" id="team">
+                            Team
+                        </li>
+                        <li class="listItem" id="personal">
+                            Personal
+                        </li>
+                        <li class="listItem" id="practice">
+                            Practice
+                        </li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="filterItem team">
+                        <div class="image">
+                            <div class="overlay"><i class="far fa-image"></i></div>
+                            <img src="image/team1.jpg">
+                        </div>
+                        <div class="main">
+                            SLAM 기술을 활용한 탐색 드론 개발 
+                        </div>
+                        <div class="sub">
+                            3학년 캡스톤 디자인
+                        </div>
+                        <div class="text">
+                            <a href="https://wlsgurdbqls.notion.site/SLAM-3ef6ce036af54490942f8f1b3108cb87" target="blank">이동</a>
+                        </div>
+                    </div>
+                    <div class="filterItem team">
+                        <div class="image">
+                            <div class="overlay"><i class="far fa-image"></i></div>
+                            <img src="image/team2.jpg">
+                        </div>
+                        <div class="main">
+                            비대면 수업을 위한 가상 강의실 구현 
+                        </div>
+                        <div class="sub">
+                            4학년 캡스톤 디자인
+                        </div>
+                        <div class="text">
+                            <a href="https://wlsgurdbqls.notion.site/0b15a671365049f285b5064cc051dc94" target="blank">이동</a>
+                        </div>
+                    </div>
+                    <div class="filterItem uiux personal">
+                        <div class="image">
+                            <div class="overlay"><i class="far fa-image"></i></div>
+                            <img src="image/personal.jpg">
+                        </div>
+                        <div class="main">
+                            익스프레스로 SNS서비스 만들기 
+                        </div>
+                        <div class="sub">
+                            Node.js
+                        </div>
+                        <div class="text">
+                            <a href="https://wlsgurdbqls.notion.site/SNS-c24e785d0a374362ae5d67a5913fe6de">이동</a>
+                        </div>
+                    </div>
+                    <div class="filterItem personal">
+                        <div class="image">
+                            <div class="overlay"><i class="far fa-image"></i></div>
+                            <img src="image/personal1.jpg">
+                        </div>
+                        <div class="main">
+                            똥 피하기 게임 
+                        </div>
+                        <div class="sub">
+                            파이썬, 파이게임
+                        </div>
+                        <div class="text">
+                            <a href="https://wlsgurdbqls.notion.site/33cb608923764311b348434fbabd3c4a" target="blank">이동</a>
+                        </div>
+                    </div>
+                    <div class="filterItem personal">
+                        <div class="image">
+                            <div class="overlay"><i class="far fa-image"></i></div>
+                            <img src="image/personal2.jpg">
+                        </div>
+                        <div class="main">
+                            간단하게 인스타그램 만들어보기
+
+                        </div>
+                        <div class="sub">
+                            Html, css, Javascript
+                        </div>
+                        <div class="text">
+                            <a href="https://wlsgurdbqls.notion.site/dfe498e0f67748ddaa4b97198f0876e3" target="blank">이동</a>
+                        </div>
+                    </div>
+                    <div class="filterItem practice">
+                        <div class="image">
+                            <div class="overlay"><i class="far fa-image"></i></div>
+                            <img src="image/practice.JPG">
+                        </div>
+                        <div class="main">
+                            대구 AI hub AI+WEB 과정 3기 수료
+                        </div>
+                        <div class="sub">
+                            딥러닝, 머신러닝, 프론트엔드, git
+                        </div>
+                        <div class="text">
+                           <a href="https://wlsgurdbqls.notion.site/AI-hub-AI-WEB-3-88ef5e8d7d0a4b33ba0c9e27a796888c" target="blank">이동</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="review-area" id="review">
+                <div class="title">
+                   UNIVERSITY
+                </div>
+                <div class="container">
+    
+                    <a class="review-prev" id="reviewPrev">&#10094;</a>
+                    <a class="review-next" id="reviewNext">&#10095;</a>
+    
+                    <div class="review-slide res-show">
+                        <div class="image">
+                            <img src="image/university/java.jpg">
+                        </div>
+                        <div class="name">
+                            java
+                        </div>
+                        <div class="text">
+                            <i>
+                            이클립스 도구를 활용하여 컴퓨터 응용 소프트웨어를 창의적으로 설계 및 개발을 할 수 있음.</i>
+                        </div>
+                    </div>
+    
+                    <div class="review-slide show">
+                        <div class="image">
+                            <img src="image/university/node.jpg">
+                        </div>
+                        <div class="name">
+                            node.js
+                        </div>
+                        <div class="text">
+                            <i>
+                             논블럭킹 IO와 싱글 스레드 기반의 서버를 개발하는 방법을 알고 복잡한 서버 동작을 구현하는 과정에서 발생하는 다양한 에러의 발생원인을 분석할 수 있음.</i>
+                        </div>
+                    </div>
+    
+                    <div class="review-slide show">
+                        <div class="image">
+                            <img src="image/university/python.jpg">
+                        </div>
+                        <div class="name">
+                            python
+                        </div>
+                        <div class="text">
+                            <i>
+                            파이썬의 기초문법을 이해하고 파이썬 안에 다양한 라이브러리를 사용 할 수 있음. </i>
+                        </div>
+                    </div>
+    
+                    <div class="review-slide hide">
+                        <div class="image">
+                            <img src="image/university/htmlcss.jpg">
+                        </div>
+                        <div class="name">
+                            html,css
+                        </div>
+                        <div class="text">
+                            <i>
+                            html의 기본문법을 이해하고 있고 css를 활용하여 다양한 디자인의 웹페이지를 만들 수 있음.</i>
+                        </div>
+                    </div>
+    
+                    <div class="review-slide hide">
+                        <div class="image">
+                            <img src="image/university/js.jpg">
+                        </div>
+                        <div class="name">
+                           Javascript
+                        </div>
+                        <div class="text">
+                            <i>
+                            웹 사이트가 구성되었을 때 자바스크립트를 이용하여 사용자에게 편리한 인터페이스를 제공할 수 있는 이해도를 가지고 있음.</i>
+                        </div>
+                    </div>
+    
+                    <div class="review-slide hide">
+                        <div class="image">
+                            <img src="image/university/mysql.jpg">
+                        </div>
+                        <div class="name">
+                            mysql
+                        </div>
+                        <div class="text">
+                            <i>
+                            SQL을 이용하여 데이터베이스 조작을 할 수 있고 데이터베이스 설계 방법에 대해서 학습이 되어 있음.</i>
+                        </div>
+                    </div>
+    
+                    <div class="review-slide hide">
+                        <div class="image">
+                            <img src="image/university/unreal.jpg">
+                        </div>
+                        <div class="name">
+                            unreal
+                        </div>
+                        <div class="text">
+                            <i>
+                            언리얼엔진을 활용하여 HTC Vive에 동작가능한 시스템의 개발환경을 구축하고 블루프린트를 통해 가상현실 응용프로그램을 개발할 수 있음.</i>
+                        </div>
+                    </div>
+    
+                    <div class="review-slide hide">
+                        <div class="image">
+                            <img src="image/university/ai.jpg">
+                        </div>
+                        <div class="name">
+                            딥러닝
+                        </div>
+                        <div class="text">
+                            <i>
+                           머싱러닝의 한분야인 딥러닝의 기초이론과 동작원리를 이해하고 있고 다양한 오픈소스 도구인 텐서플로와 케라스를 활용할 수 있음.</i>
+                        </div>
+                    </div>
+    
+                    <div class="review-slide hide">
+                        <div class="image">
+                            <img src="image/university/unix.JPG">
+                        </div>
+                        <div class="name">
+                           unix
+                        </div>
+                        <div class="text">
+                            <i>
+                            유닉스 시스템을 학습하여 리눅스 운영체제상에서 시스템 프로그래밍을 할 수 있음.</i>
+                        </div>
+                    </div>
+    
+                    <div class="review-slide hide">
+                        <div class="image">
+                            <img src="image/university/sw.jpg">
+                        </div>
+                        <div class="name">
+                            소프트웨어테스팅
+                        </div>
+                        <div class="text">
+                            <i>
+                           소프트웨어 테스팅에 대한 이해와 개발자로서 테스팅을 설계하는 방법을 학습했음.</i>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    
+        <div id="portfolioModal" class="modal">
+            <span class="close" id="modalClose">&times;</span>
+            <div class="container">
+                <img id="modalImage">
+                <div id="modalMain" class="modal-main"></div>
+                <div id="modalSub" class="modal-sub"></div>
+                <div id="modalText" class="modal-text"></div>
+            </div>
+        </div>
+
+        <footer class="footer-area">
+            <div class="info">
+                <p>Copyright © 2018 Test Corp. All rights reserved.</p>
+            </div>
+        </footer>
+    
+        <div id="portfolioModal" class="modal"b>
+            <span class="close" id="modalClose">&times;</span>
+            <div class="container">
+                <img id="modalImage">
+                <div id="modalMain" class="modal-main"></div>
+                <div id="modalSub" class="modal-sub"></div>
+                <div id="modalText" class="modal-text"></div>
+            </div>
+        </div>
+    
+        <script src="portfolio.js"></script>
+    </body>
+    </html>
+
+
+
+
+
